@@ -15,6 +15,6 @@ public class HelloController {
             new ResponseEntity<>("KO", HttpStatus.INTERNAL_SERVER_ERROR);
     @GetMapping("/hello")
     public String hello() {
-        return "Hello std22100";
+        return "Hello std22083";
     }
 }
